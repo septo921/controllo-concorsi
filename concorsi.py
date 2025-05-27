@@ -15,8 +15,7 @@ def cerca_concorsi():
         "sociologo",
         "sociologi",
         "L-40",
-        "L40",
-        "ingegneria"
+        "L40"
     ]
 
     trovati = []
