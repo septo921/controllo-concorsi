@@ -2,8 +2,8 @@ name: Controlla Concorsi
 
 on:
   schedule:
-    - cron: '0 19 * * 2'  # martedì alle 21:00 UTC
-    - cron: '0 19 * * 5'  # venerdì alle 21:00 UTC
+    - cron: '0 19 * * 2'  # martedì alle 21:00 IT (ora legale)
+    - cron: '0 19 * * 5'  # venerdì alle 21:00 IT (ora legale)
   workflow_dispatch:
 
 jobs:
